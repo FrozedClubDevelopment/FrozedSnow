@@ -1,0 +1,13 @@
+particle-settings:
+  type: FIREWORK
+  amount: 16
+  speed: 0.05
+  offset-x: 0.5
+  offset-y: 0.5
+  offset-z: 0.5
+  radius-distance-in-blocks: 40
+player-settings:
+  command-cooldown: 16
+  particles-enabled: "&aHas activado las particulas"
+  particles-disabled: "&cHas desactivado las particulas"
+  cooldown-message: "&cDebes esperar &e{time} &csegundos antes de usar este comando nuevamente!"

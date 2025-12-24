@@ -1,0 +1,18 @@
+name: FrozedSnow
+version: '1.0.0'
+main: club.frozed.snow.FrozedSnow
+api-version: '1.21'
+authors: [ Elb1to ]
+description: Visually Let It Snow on Players Screen
+website: www.elb1to.me
+depend: [ packetevents ]
+commands:
+  snow:
+    description: Toggle snow particles on or off
+    usage: /snow
+    aliases: [ togglesnow, snowtoggle ]
+  frozedsnow:
+    description: Reload the FrozedSnow configuration
+    usage: /frozedsnow reload
+    aliases: [ fsreload, snowreload ]
+    permission: frozedsnow.reload
